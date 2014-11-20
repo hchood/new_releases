@@ -1,0 +1,7 @@
+<h3>Newly Released Albums</h3>
+
+<ul>
+  <% @albums.each do |name, album_info| %>
+    <li><a href="/albums/<%= name %>"><%= name %></a></li>
+  <% end %>
+</ul>
