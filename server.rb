@@ -19,4 +19,6 @@ get '/albums' do
 
   # find the index view & inserts the @albums variable into the view
   # we need to create the index view and render it
+
+  erb :'albums/index'
 end
