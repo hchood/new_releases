@@ -80,6 +80,11 @@ What happens inside my app when I navigate to my "/albums" page? (Try it - you s
 
 * Anything else? I need to link to each album's page.
 
-Once complete, I can move on to the next user story.
+Once complete, I can refactor!  And then move on to the next user story.
+
+Our third user story has some more complicated pieces.
+
+* First, I'd try to get the base case working: Let's assume that any input is OK.
+* Now, let's make sure that users can't submit an album without a name.  Then, we can add a validation for description, and so forth until we've hit all of our validations.
 
 
