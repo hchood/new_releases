@@ -1,0 +1,20 @@
+<h3><%= @album['name'] %></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Artist(s)</th>
+      <th>Popularity</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><%= @album['album_type'] %></td>
+      <td><%= @album['artists'] %></td>
+      <td><%= @album['popularity'] %></td>
+      <td><%= @album['url'] %></td>
+    </tr>
+  </tbody>
+</table>

@@ -27,6 +27,7 @@ get '/albums/:album_name' do
   albums = read_albums_from('albums.csv')
   @album = albums[params['album_name']]
 
+  erb :'albums/show'
 end
 
 
